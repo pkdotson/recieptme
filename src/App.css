@@ -2,31 +2,86 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.search {
+    width: 530px;
+    padding: 10px;
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    background: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    z-index: 1000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainContainer {
+  top: 0;
+  bottom: 0;
+  left: 55%;
+  right: 0;
+  position: fixed;
+  font-family: Roboto;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+.recContainer {
+  background-color: white;
+  position: relative;
+  width: 85%;
+  height: 85%;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.priceContainer {
+  margin-top: 295px;
+}
+
+.pricer {
+  padding-left: 50px;
+}
+
+.center {
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+
+.rinfo {
+    font-weight: 100;
+    font-size: 1.5em;
+    font-family: Aerial;
+    color: #f5f6f6;
+    background-color: #02baa9;
+    border-radius: 8px;
+    box-shadow: 5px 10px 8px #d3d2d2;
+}
+
+.thanks {
+  margin-top: 100px;
+  padding-left: 25%;
+  position: absolute;
+}
+
+.searchrow {
+  margin-top: 25px;
+}
+
+.form {
+  background-color: #9e9e9e0a;
+  margin-top: 25px;
+  margin-left: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  position: fixed;
+}
+
+.searchbtn {
+  right: 150px;
 }
